@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>valentines day card</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" type="image/png" href="Val.png">
+</head>
+<body>
+    <div class="div3">
+        <a href="home.html">Home</a> 
+        <a href="we.html"> U&ME&#129392</a>
+        <a href="Val.html">Val&#128151</a>
+        <a href="about.html">More&#128525</a>  
+    </div>
+    <script>
+        var varia=false;
+        function show(){
+            varia = !varia;
+            if(varia){
+                document.getElementById("hidden").style.display = 'block';
+            }else{
+                document.getElementById("hidden").style.display = 'none';
+            }
+        }
+    </script>
+    <div >
+        <div class="div4" >
+            <br>
+<button onclick="show()">Click Me</button>
+        </div>
+       <div class="div4" id="hidden" ><p><h1><Strong>TADA!</Strong></h1>
+        <img class="teddy" src="teddy.jpg">
+       </div>
+    </div>
+</body>
+</html>
